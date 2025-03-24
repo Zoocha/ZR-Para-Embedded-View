@@ -11,7 +11,7 @@ To install the Zoocha Embeddable View Paragraph, follow the steps below:
 4. Run the following command to execute the Zoocha Embeddable View Paragraph installation:
 
     ```sh
-    ddev drush recipe recipes/custom/zc-embeddable-view-paragraph
+    ddev drush recipe recipes/custom/zr-para-embedded-view
     ```
 
 This command will execute the Zoocha Embeddable View Paragraph installation.
