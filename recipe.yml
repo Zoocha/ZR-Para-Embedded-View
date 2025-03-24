@@ -1,0 +1,9 @@
+name: 'ZC Embeddable View Paragraph'
+description: 'Installs Zoocha Embeddable View Paragraph Component'
+type: 'Feature'
+
+recipes:
+  - zr-paragraph-bundle
+
+config:
+  strict: false
