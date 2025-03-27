@@ -4,6 +4,7 @@ type: 'Feature'
 
 recipes:
   - zr-paragraph-bundle
-
+install:
+  - color_field
 config:
   strict: false
