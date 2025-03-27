@@ -6,5 +6,6 @@ recipes:
   - zr-paragraph-bundle
 install:
   - color_field
+  - viewsreference
 config:
   strict: false
