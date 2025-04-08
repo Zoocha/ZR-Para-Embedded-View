@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.embedded_view.field_view
     - paragraphs.paragraphs_type.embedded_view
   module:
-    - color_field
     - viewsreference
 _core:
   default_config_hash: kwMQjfserCfl3ayMt1vA7ElAasOXNOGW6my3tUIP-kE
