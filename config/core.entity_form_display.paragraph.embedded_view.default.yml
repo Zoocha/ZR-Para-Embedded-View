@@ -5,8 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.embedded_view.field_view
     - paragraphs.paragraphs_type.embedded_view
-  module:
-    - color_field
+  module:color_field
     - viewsreference
 id: paragraph.embedded_view.default
 targetEntityType: paragraph
