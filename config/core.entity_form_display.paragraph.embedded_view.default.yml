@@ -1,4 +1,4 @@
-uuid: 543d3dc2-6032-4419-b6c4-4d54596ea171
+uuid: 5df981d9-c8de-4270-9b01-0b38dee0315a
 langcode: en
 status: true
 dependencies:
@@ -9,29 +9,29 @@ dependencies:
   module:
     - color_field
     - viewsreference
-_core:
-  default_config_hash: kwMQjfserCfl3ayMt1vA7ElAasOXNOGW6my3tUIP-kE
 id: paragraph.embedded_view.default
 targetEntityType: paragraph
 bundle: embedded_view
 mode: default
 content:
   field_background_colour:
-    type: color_field_formatter_text
-    label: hidden
-    settings:
-      format: hex
-      opacity: true
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  field_view:
-    type: viewsreference_formatter
-    label: hidden
-    settings:
-      plugin_types:
-        - block
-    third_party_settings: {  }
+    type: color_field_widget_default
     weight: 1
     region: content
-hidden: {  }
+    settings:
+      placeholder_color: ''
+      placeholder_opacity: ''
+    third_party_settings: {  }
+  field_view:
+    type: viewsreference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
