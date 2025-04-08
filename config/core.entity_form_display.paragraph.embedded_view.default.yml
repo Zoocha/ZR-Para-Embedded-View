@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.embedded_view.field_background_colour
     - field.field.paragraph.embedded_view.field_view
     - paragraphs.paragraphs_type.embedded_view
   module:
@@ -14,14 +13,6 @@ targetEntityType: paragraph
 bundle: embedded_view
 mode: default
 content:
-  field_background_colour:
-    type: color_field_widget_default
-    weight: 1
-    region: content
-    settings:
-      placeholder_color: ''
-      placeholder_opacity: ''
-    third_party_settings: {  }
   field_view:
     type: viewsreference_autocomplete
     weight: 0

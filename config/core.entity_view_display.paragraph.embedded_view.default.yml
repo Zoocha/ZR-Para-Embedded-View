@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.embedded_view.field_background_colour
     - field.field.paragraph.embedded_view.field_view
     - paragraphs.paragraphs_type.embedded_view
   module:
@@ -16,15 +15,6 @@ targetEntityType: paragraph
 bundle: embedded_view
 mode: default
 content:
-  field_background_colour:
-    type: color_field_formatter_text
-    label: hidden
-    settings:
-      format: hex
-      opacity: true
-    third_party_settings: {  }
-    weight: 0
-    region: content
   field_view:
     type: viewsreference_formatter
     label: hidden
